@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import logo from '../../assets/logo.png';
 import './navbar.css';
 
@@ -23,8 +23,8 @@ const Navbar = () => {
         </div>
         <div className="filelock__navbar-menu">
           {toggleMenu
-            ? <RiCloseLine color="#fff" size={27} onClick={() => setToggleMenu(false)} />
-            : <RiMenu3Line color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
+            ? <AiOutlineMenu color="#fff" size={27} onClick={() => setToggleMenu(false)} />
+            : <AiOutlineClose color="#fff" size={27} onClick={() => setToggleMenu(true)} />}
           {toggleMenu && (
             <div className="filelock__navbar-menu_container scale-up-center">
               <div className="filelock__navbar-menu_container-links">

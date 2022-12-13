@@ -5,7 +5,7 @@ import './meeting.css';
 
 const Meeting = () => {
   return (
-  <div className="fl__meeting section__padding" id="blog">
+  <div className="fl__meeting section__padding" id="meeting">
     <div className="fl__meeting-heading">
       <h1 className="gradient__text">
         We have lots of meeting <br />
