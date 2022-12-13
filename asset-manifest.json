@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/FileLock-Website/static/css/main.d883f529.css",
+    "main.js": "/FileLock-Website/static/js/main.3de6132b.js",
+    "static/media/meeting.jpg": "/FileLock-Website/static/media/meeting.9cb8aeed0cd005d23b49.jpg",
+    "static/media/securefile.png": "/FileLock-Website/static/media/securefile.c98fbdee9f6a412b5c21.png",
+    "index.html": "/FileLock-Website/index.html",
+    "main.d883f529.css.map": "/FileLock-Website/static/css/main.d883f529.css.map",
+    "main.3de6132b.js.map": "/FileLock-Website/static/js/main.3de6132b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d883f529.css",
+    "static/js/main.3de6132b.js"
+  ]
+}
