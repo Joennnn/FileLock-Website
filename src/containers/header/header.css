@@ -1,0 +1,111 @@
+.filelock__header {
+    display: flex;
+    flex-direction: row;
+}
+
+.filelock__header-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+
+.filelock__header-content h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
+.filelock__header-content p {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: var(--color-white);
+
+    margin-top: 1.5rem;
+}
+
+.filelock__header-content__button button {
+    flex: 0.6;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 16px;
+    background: var(--gradient-text);
+    border: 2px solid var(--gradient-text);
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    margin: 1rem 0 0 1rem;
+    border-radius: 25px;
+}
+
+.filelock__header-content__button button:hover {
+    background: var(--color-white);
+    border: 2px solid var(--gradient-text);
+    color: var(--gradient-text);
+}
+
+.filelock__header-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filelock__header-image img {
+    width: 368px;
+    height: 240px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1050px) {
+    .filelock__header {
+        flex-direction: column;
+    }
+
+    .filelock__header-content {
+        margin: 0 0 3rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .filelock__header-content h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    .filelock__header-content p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .filelock__header-content__button button {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .filelock__header-content h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .filelock__header-content p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .filelock__header-content__button button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

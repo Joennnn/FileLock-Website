@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-dark-blue);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.gradient__bg {
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 50% 50%, #12232E 5%, #203647 90%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 50% 50%, #12232E 5%, #203647 90%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 50% 50%, #12232E 5%, #203647 90%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 50% 50%, #12232E 5%, #203647 90%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 50% 50%, #12232E 5%, #203647 90%);
+}
+
+.gradient__header{
+  /* ff 3.6+ */
+  background:-moz-linear-gradient(20deg, #12232E 10%, #003A5D 50%, #203647 91%); 
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-linear-gradient(20deg, #12232E 10%, #003A5D 50%, #203647 91%);
+
+  /* opera 11.10+ */
+  background:-o-linear-gradient(20deg, #12232E 10%, #003A5D 50%, #203647 91%);
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12232E', endColorstr='#203647', GradientType=1 );
+
+  /* ie 10+ */
+  background:-ms-linear-gradient(20deg, #12232E 10%, #003A5D 50%, #203647 91%);
+
+  /* global 94%+ browsers support */
+  background:linear-gradient(20deg, #12232E 10%, #003A5D 50%, #203647 91%);
+}
+
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section__padding {
+  padding: 4rem 6rem;
+}
+
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .section__padding {
+    padding: 4rem;
+  }
+
+  .section__margin {
+    margin: 4rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .section__padding {
+    padding: 4rem 2rem;
+  }
+
+  .section__margin {
+    margin: 4rem 2rem;
+  }  
+}
