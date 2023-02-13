@@ -11,7 +11,7 @@ const Footer = () => {
     </div>
 
     <div className="fl__footer-btn">
-      <a href="https://mega.nz/file/gvYU3TCY#_2HyTrRZ6ER3a4zEuEQExTOXLC0_9JAjkWXvLTv7v3Q"><p>Download FileLock</p></a>
+      <a href="https://mega.nz/file/dvwG3JII#T-hAj9BQFyW_bA4nUUet2i59ShSfxOXlnnnsQvJf5nE"><p>Download FileLock</p></a>
     </div>
 
     <div className="fl__footer-links">
