@@ -18,7 +18,7 @@ const Navbar = () => {
           <p><a href="#fl">FileLock</a></p>
           <p><a href="#features">Features</a></p>
           <p><a href="#members">Team</a></p>
-          <p><a href="https://drive.google.com/drive/u/0/folders/1VP5qe7dSaYNPgu3ZeDiKBJ4cjT15wRxk">Document</a></p>
+          <p><a href="https://www.dropbox.com/scl/fo/amrd8a5dyfv13lgsqcsh9/h?dl=0&rlkey=o0jh3qow2zpgpw611oitms8td">Document</a></p>
         </div>
         <div className="filelock__navbar-menu">
           {toggleMenu
@@ -31,7 +31,7 @@ const Navbar = () => {
                 <p><a href="#fl">FileLock</a></p>
                 <p><a href="#features">Features</a></p>
                 <p><a href="#members">Team</a></p>
-                <p><a href="https://drive.google.com/drive/u/0/folders/1VP5qe7dSaYNPgu3ZeDiKBJ4cjT15wRxk">Document</a></p>
+                <p><a href="https://www.dropbox.com/scl/fo/amrd8a5dyfv13lgsqcsh9/h?dl=0&rlkey=o0jh3qow2zpgpw611oitms8td">Document</a></p>
               </div>
             </div>
           )}
