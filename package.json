@@ -1,7 +1,7 @@
 {
   "name": "filelock-website",
   "version": "0.1.0",
-  "homepage": "http://joennnn.github.io/FileLock-Website",
+  "homepage": "https://joennnn.github.io/FileLock-Website",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
