@@ -1,14 +1,14 @@
 {
-  "main.css": "/FileLock-Website/static/css/main.0259565d.chunk.css",
-  "main.js": "/FileLock-Website/static/js/main.79dba239.chunk.js",
-  "main.js.map": "/FileLock-Website/static/js/main.79dba239.chunk.js.map",
-  "static/js/1.c8dded9d.chunk.js": "/FileLock-Website/static/js/1.c8dded9d.chunk.js",
-  "static/js/1.c8dded9d.chunk.js.map": "/FileLock-Website/static/js/1.c8dded9d.chunk.js.map",
-  "runtime~main.js": "/FileLock-Website/static/js/runtime~main.fdb7706a.js",
-  "runtime~main.js.map": "/FileLock-Website/static/js/runtime~main.fdb7706a.js.map",
-  "static/media/securefile.png": "/FileLock-Website/static/media/securefile.2057cae7.png",
-  "static/css/main.0259565d.chunk.css.map": "/FileLock-Website/static/css/main.0259565d.chunk.css.map",
-  "index.html": "/FileLock-Website/index.html",
-  "precache-manifest.b329add33b3de80768ba2046306566d2.js": "/FileLock-Website/precache-manifest.b329add33b3de80768ba2046306566d2.js",
-  "service-worker.js": "/FileLock-Website/service-worker.js"
+  "files": {
+    "main.css": "/FileLock-Website/static/css/main.91ff98eb.css",
+    "main.js": "/FileLock-Website/static/js/main.43dd9147.js",
+    "static/media/securefile.png": "/FileLock-Website/static/media/securefile.c98fbdee9f6a412b5c21.png",
+    "index.html": "/FileLock-Website/index.html",
+    "main.91ff98eb.css.map": "/FileLock-Website/static/css/main.91ff98eb.css.map",
+    "main.43dd9147.js.map": "/FileLock-Website/static/js/main.43dd9147.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91ff98eb.css",
+    "static/js/main.43dd9147.js"
+  ]
 }
