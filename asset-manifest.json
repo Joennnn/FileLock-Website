@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/filelock-website/static/css/main.91ff98eb.css",
-    "main.js": "/filelock-website/static/js/main.16e06483.js",
-    "static/media/securefile.png": "/filelock-website/static/media/securefile.c98fbdee9f6a412b5c21.png",
-    "index.html": "/filelock-website/index.html",
-    "main.91ff98eb.css.map": "/filelock-website/static/css/main.91ff98eb.css.map",
-    "main.16e06483.js.map": "/filelock-website/static/js/main.16e06483.js.map"
+    "main.css": "/Filelock-Website/static/css/main.91ff98eb.css",
+    "main.js": "/Filelock-Website/static/js/main.0880b137.js",
+    "static/media/securefile.png": "/Filelock-Website/static/media/securefile.c98fbdee9f6a412b5c21.png",
+    "index.html": "/Filelock-Website/index.html",
+    "main.91ff98eb.css.map": "/Filelock-Website/static/css/main.91ff98eb.css.map",
+    "main.0880b137.js.map": "/Filelock-Website/static/js/main.0880b137.js.map"
   },
   "entrypoints": [
     "static/css/main.91ff98eb.css",
-    "static/js/main.16e06483.js"
+    "static/js/main.0880b137.js"
   ]
 }
